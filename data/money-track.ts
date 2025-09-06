@@ -1,0 +1,455 @@
+export const moneyTrackData = {
+  "track_id": "MONEY",
+  "days": [
+    {
+      "day": 1,
+      "daily_theme": "Your Wealth Isn't Your Worth",
+      "stoic_quote": "Wealth consists not in having great possessions, but in having few wants.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Having a fat bank account doesn't mean shit if you're constantly chasing more. Learn to need less and you'll feel rich.",
+      "todays_challenge": "Write down everything you spent money on in the last 48 hours. Circle the items that truly improved your life and cross out the ones that were just impulse buys.",
+      "challenge_type": "reflection",
+      "todays_intention": "Today I will pause before every purchase and ask if it serves me or just my ego.",
+      "evening_reflection_prompts": [
+        "What did I think I needed today that I actually didn't?",
+        "When did money stress hijack my mood?",
+        "What possession owns too much mental real estate?"
+      ]
+    },
+    {
+      "day": 2,
+      "daily_theme": "Enough Is a Decision",
+      "stoic_quote": "He who is not contented with what he has would not be contented with what he would like to have.",
+      "quote_author": "Socrates",
+      "bro_translation": "If your happiness depends on buying the next gadget, you're already broke. Decide what 'enough' means and own it.",
+      "todays_challenge": "Identify one area where you overspend to impress others. Commit to cutting that expense for the next week.",
+      "challenge_type": "action",
+      "todays_intention": "I will practice contentment by appreciating what I already own.",
+      "evening_reflection_prompts": [
+        "Did I feel the urge to buy something unnecessary? Why?",
+        "How did contentment show up in my decisions today?",
+        "What gratitude did I feel for what I already have?"
+      ]
+    },
+    {
+      "day": 3,
+      "daily_theme": "Desire Makes You Poor",
+      "stoic_quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "quote_author": "Seneca",
+      "bro_translation": "You're only broke when you're addicted to the upgrade. Kill the craving, not your bank account.",
+      "todays_challenge": "List three desires that have been draining your wallet. For each, describe a way to satisfy the underlying need without spending.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will notice my cravings and question whether they serve my well‑being.",
+      "evening_reflection_prompts": [
+        "When did a craving hit me today?",
+        "What deeper need was I trying to fill?",
+        "How did I redirect my energy instead of spending?"
+      ]
+    },
+    {
+      "day": 4,
+      "daily_theme": "Money as a Tool",
+      "stoic_quote": "Wealth is the slave of a wise man and the master of a fool.",
+      "quote_author": "Seneca",
+      "bro_translation": "Either you run your money or your money runs you. Treat cash like a wrench, not a trophy.",
+      "todays_challenge": "Pick one purchase today that supports a value of yours (health, learning, relationships). Note how intentional spending feels versus random spending.",
+      "challenge_type": "action",
+      "todays_intention": "I will use my resources to build things that matter, not to prove my worth.",
+      "evening_reflection_prompts": [
+        "What did I spend on that aligned with my values?",
+        "How did it feel to invest in something meaningful?",
+        "Did any impulse purchases creep in?"
+      ]
+    },
+    {
+      "day": 5,
+      "daily_theme": "The Cost of Status",
+      "stoic_quote": "If you wish to be rich, do not add to your wealth but subtract from your desires.",
+      "quote_author": "Seneca",
+      "bro_translation": "Flexing costs more than you think. Drop the need to show off and watch your wallet and peace grow.",
+      "todays_challenge": "Scroll through your social media feed and note any feelings of comparison or envy. Unfollow accounts that trigger spending urges.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will avoid chasing status symbols and focus on inner fulfillment.",
+      "evening_reflection_prompts": [
+        "What status triggers did I encounter today?",
+        "How did I respond when I felt like flexing?",
+        "What truly impresses me about someone else?"
+      ]
+    },
+    {
+      "day": 6,
+      "daily_theme": "Living Below Your Means",
+      "stoic_quote": "Contentment comes not so much from great wealth as from few wants.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Big paychecks mean nothing if your spending is bigger. The real flex is having options because you didn't blow your cash.",
+      "todays_challenge": "Find one recurring expense you can lower or eliminate (subscriptions, dining out). Cancel or reduce it today.",
+      "challenge_type": "action",
+      "todays_intention": "I will embrace simplicity and cut unnecessary expenses.",
+      "evening_reflection_prompts": [
+        "What did I cut or reduce today?",
+        "How did it feel to let go of that expense?",
+        "What freedom comes with living below my means?"
+      ]
+    },
+    {
+      "day": 7,
+      "daily_theme": "The True Cost of Debt",
+      "stoic_quote": "Debt is the slavery of the free.",
+      "quote_author": "Publilius Syrus",
+      "bro_translation": "Borrowing money is selling your future time. Stop signing away tomorrow to pay for today's shiny toys.",
+      "todays_challenge": "Review your debts. Choose one small debt or balance to attack aggressively. Plan a payoff strategy.",
+      "challenge_type": "action",
+      "todays_intention": "I will be mindful of obligations and work toward financial freedom.",
+      "evening_reflection_prompts": [
+        "How did I feel when looking at my debts?",
+        "What small action did I take toward paying one off?",
+        "What would freedom from debt allow me to do?"
+      ]
+    },
+    {
+      "day": 8,
+      "daily_theme": "Generosity Without Guilt",
+      "stoic_quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "quote_author": "Seneca",
+      "bro_translation": "Give from a place of abundance, not obligation. Generosity that leaves you resentful isn't generosity at all.",
+      "todays_challenge": "Do one generous act today with no expectation of return. It can be money, time or attention.",
+      "challenge_type": "action",
+      "todays_intention": "I will give freely without keeping score and trust in abundance.",
+      "evening_reflection_prompts": [
+        "What generous act did I offer today?",
+        "How did giving make me feel?",
+        "Did I expect anything in return?"
+      ]
+    },
+    {
+      "day": 9,
+      "daily_theme": "Value Versus Price",
+      "stoic_quote": "Things are not to be judged good or bad except as they give advantage or disadvantage to the soul.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Price tags don't tell you what's actually valuable. Invest in experiences and skills, not just stuff.",
+      "todays_challenge": "When making any purchase today, ask: Does this add long‑term value to my life? Keep a note of your answers.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will prioritize purchases that enrich my mind, body or relationships over fleeting pleasures.",
+      "evening_reflection_prompts": [
+        "Which purchases added real value today?",
+        "Which were purely impulsive?",
+        "How can I redirect spending toward growth?"
+      ]
+    },
+    {
+      "day": 10,
+      "daily_theme": "Money and Morality",
+      "stoic_quote": "How you handle your resources reveals your character.",
+      "quote_author": "Marcus Aurelius (paraphrased)",
+      "bro_translation": "Your bank statements are moral documents. They show what you truly care about—make sure you like what you see.",
+      "todays_challenge": "Review the last week of your spending and categorize each expense as a 'need', 'want', or 'vice'. Reflect on the proportions.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will align my spending with my ethics and values.",
+      "evening_reflection_prompts": [
+        "What patterns did I notice in my spending?",
+        "Did any expense conflict with my values?",
+        "How can I bring more integrity to my financial decisions?"
+      ]
+    },
+    {
+      "day": 11,
+      "daily_theme": "Earning With Purpose",
+      "stoic_quote": "Do not act as if you were going to live ten thousand years. Death hangs over you. While you live, while it is in your power, be good.",
+      "quote_author": "Marcus Aurelius",
+      "bro_translation": "Stop grinding aimlessly. Earn in a way that matters because tomorrow isn't guaranteed.",
+      "todays_challenge": "List your main sources of income. For each, write one sentence about how it contributes (or doesn't) to your sense of purpose.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will seek alignment between how I earn money and the impact I want to have.",
+      "evening_reflection_prompts": [
+        "Does my work reflect my values?",
+        "Where am I just chasing a paycheck?",
+        "What small change can I make to bring more meaning to my work?"
+      ]
+    },
+    {
+      "day": 12,
+      "daily_theme": "Rich in Time",
+      "stoic_quote": "The true wealth of a man is the time he has to use as he pleases.",
+      "quote_author": "Unknown (Stoic wisdom)",
+      "bro_translation": "Money can be earned back; time can't. Protect your calendar like you protect your bank account.",
+      "todays_challenge": "Audit how you spent your last 24 hours. Identify one time‑drain that provides little return and commit to replacing it with rest or growth.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will treat time as my most precious asset and invest it wisely.",
+      "evening_reflection_prompts": [
+        "Where did I waste time today?",
+        "How did I invest my time in ways that enriched me?",
+        "What will I cut to free up more time tomorrow?"
+      ]
+    },
+    {
+      "day": 13,
+      "daily_theme": "Security Versus Hoarding",
+      "stoic_quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "quote_author": "Seneca",
+      "bro_translation": "There's a thin line between saving wisely and hoarding out of fear. Are you stockpiling or preparing?",
+      "todays_challenge": "Evaluate your emergency fund or savings. Decide if your current level is based on prudence or anxiety. Adjust your contribution or use accordingly.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will save out of prudence, not panic, and let my money circulate in ways that serve me and others.",
+      "evening_reflection_prompts": [
+        "Did fear influence my financial decisions today?",
+        "What level of savings feels both responsible and liberating?",
+        "How did I allow money to flow instead of stagnate?"
+      ]
+    },
+    {
+      "day": 14,
+      "daily_theme": "Investment in Self",
+      "stoic_quote": "Don't explain your philosophy. Embody it.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Stop talking about how you're going to level up and actually invest time and cash in your skills, health and mindset.",
+      "todays_challenge": "Spend at least 30 minutes and a small sum (if needed) on self‑development (a course, a book, a workout class). Note how it feels compared to buying a material item.",
+      "challenge_type": "action",
+      "todays_intention": "I will prioritize growth investments over material consumption.",
+      "evening_reflection_prompts": [
+        "What did I invest in myself today?",
+        "How did it impact my energy or mindset?",
+        "Where can I redirect funds from stuff to self?"
+      ]
+    },
+    {
+      "day": 15,
+      "daily_theme": "Living Generously Within Means",
+      "stoic_quote": "Wealth is not about having a lot of money; it's about having a lot of options.",
+      "quote_author": "Chris Rock (modern wisdom)",
+      "bro_translation": "Real ballers can say no because they aren't strapped. Give and live freely because you planned well, not because you borrowed to flex.",
+      "todays_challenge": "Think of someone or some cause that matters to you. Give a modest contribution—monetary or otherwise—without tipping yourself into stress.",
+      "challenge_type": "action",
+      "todays_intention": "I will give from surplus and keep my own financial foundation solid.",
+      "evening_reflection_prompts": [
+        "How did it feel to give within my means?",
+        "What boundaries protect my generosity?",
+        "Did I overextend to impress someone today?"
+      ]
+    },
+    {
+      "day": 16,
+      "daily_theme": "Mindful Earning",
+      "stoic_quote": "The more we value things outside our control, the less control we have.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Chasing money blindly gives money all the power. Focus on your craft and let the cash follow.",
+      "todays_challenge": "Spend 30 minutes sharpening a skill that directly ties into your income. Do it with full presence, without distractions.",
+      "challenge_type": "action",
+      "todays_intention": "I will honour my work and detach from the outcome. Effort is mine, results are not.",
+      "evening_reflection_prompts": [
+        "How did I hone my craft today?",
+        "Did I detach from the need for immediate financial return?",
+        "What long‑term benefit might come from today's effort?"
+      ]
+    },
+    {
+      "day": 17,
+      "daily_theme": "Scarcity Mindset Detox",
+      "stoic_quote": "Do not indulge in dreams of having what you have not, but reckon up the chief of the blessings you do possess.",
+      "quote_author": "Marcus Aurelius",
+      "bro_translation": "Stop obsessing over what you don't have. Count your wins instead of your lacks; scarcity is a head game.",
+      "todays_challenge": "List five resources (skills, relationships, experiences) you already possess that help you create value without spending money.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will feed an abundance mindset by acknowledging my existing assets.",
+      "evening_reflection_prompts": [
+        "What abundance did I notice in my life today?",
+        "Where did scarcity thinking creep in?",
+        "How did focusing on my assets change my mood?"
+      ]
+    },
+    {
+      "day": 18,
+      "daily_theme": "Delayed Gratification",
+      "stoic_quote": "No man is free who is not master of himself.",
+      "quote_author": "Epictetus",
+      "bro_translation": "If you can't say no to yourself, you're a slave—especially to Amazon. Train the muscle of waiting.",
+      "todays_challenge": "Identify one thing you want to buy this week. Delay the purchase for 48 hours. Spend time learning about it instead of buying.",
+      "challenge_type": "action",
+      "todays_intention": "I will practice patience and remind myself that most cravings pass.",
+      "evening_reflection_prompts": [
+        "What did I delay purchasing today?",
+        "How did waiting feel?",
+        "Do I still want it? Why or why not?"
+      ]
+    },
+    {
+      "day": 19,
+      "daily_theme": "Money and Identity",
+      "stoic_quote": "Wealth consists in not having great possessions, but in having few wants.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Your net worth isn't your self‑worth. Stop tying your identity to your balance sheet.",
+      "todays_challenge": "Write a paragraph describing yourself without mentioning your job, your income, or any possessions. Who are you without your stuff?",
+      "challenge_type": "reflection",
+      "todays_intention": "I will anchor my identity in my character and actions, not my bank account.",
+      "evening_reflection_prompts": [
+        "How did it feel to describe myself without money?",
+        "When did I notice my ego clinging to status?",
+        "What qualities define me beyond wealth?"
+      ]
+    },
+    {
+      "day": 20,
+      "daily_theme": "Financial Transparency",
+      "stoic_quote": "If you have nothing to hide, you have nothing to fear.",
+      "quote_author": "Stoic maxim",
+      "bro_translation": "Secrets about money breed shame. Be honest with yourself and your partner about what you earn and owe.",
+      "todays_challenge": "If you're in a relationship, share your financial goals and concerns with your partner. If single, write a letter to yourself outlining your financial truth.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will bring light to my financial life and let honesty guide my decisions.",
+      "evening_reflection_prompts": [
+        "Did I practice transparency about money today?",
+        "What fears came up when sharing or writing about my finances?",
+        "How did honesty free up mental space?"
+      ]
+    },
+    {
+      "day": 21,
+      "daily_theme": "Money and Happiness",
+      "stoic_quote": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
+      "quote_author": "Marcus Aurelius",
+      "bro_translation": "Happiness isn't sold at the mall. It's built in your head. Stop thinking another purchase will fix your mood.",
+      "todays_challenge": "Spend today doing free activities that bring you joy (nature walk, call with a friend, workout). Notice the difference in your mood compared to paid entertainment.",
+      "challenge_type": "action",
+      "todays_intention": "I will seek joy from simple, cost‑free experiences.",
+      "evening_reflection_prompts": [
+        "What free activity brought me the most joy?",
+        "Did I feel tempted to spend money to feel better?",
+        "How does my happiness change when money isn't part of the equation?"
+      ]
+    },
+    {
+      "day": 22,
+      "daily_theme": "Minimalism as Freedom",
+      "stoic_quote": "It is not the man who has too little, but the man who craves more, that is poor.",
+      "quote_author": "Seneca",
+      "bro_translation": "The less you own, the less owns you. Cut the clutter and watch your mind breathe.",
+      "todays_challenge": "Choose one area of your living space and declutter it completely. Donate or sell items you no longer need.",
+      "challenge_type": "action",
+      "todays_intention": "I will free my physical and mental space by letting go of excess.",
+      "evening_reflection_prompts": [
+        "How did decluttering make me feel?",
+        "What was hardest to let go of and why?",
+        "What did I learn about my attachment to things?"
+      ]
+    },
+    {
+      "day": 23,
+      "daily_theme": "Luxury Redefined",
+      "stoic_quote": "Luxury is artificial poverty.",
+      "quote_author": "Seneca",
+      "bro_translation": "Chasing luxury often means pretending to be poor. Redefine luxury as something that feeds your soul, not your insecurity.",
+      "todays_challenge": "Write your own definition of luxury that doesn't involve brand names or price tags. Then, plan a simple luxury moment for yourself using what you already have.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will choose experiences over labels and find richness in simplicity.",
+      "evening_reflection_prompts": [
+        "What did my luxury moment look like today?",
+        "How did redefining luxury change my perspective?",
+        "What external luxuries have been distracting me?"
+      ]
+    },
+    {
+      "day": 24,
+      "daily_theme": "Money and Mindfulness",
+      "stoic_quote": "Be present in all things and thankful for all things.",
+      "quote_author": "Marcus Aurelius",
+      "bro_translation": "When you're on autopilot, your wallet bleeds. Pay attention to each swipe and tap.",
+      "todays_challenge": "For every purchase you make today, pause for five deep breaths beforehand. Notice any emotions that arise.",
+      "challenge_type": "action",
+      "todays_intention": "I will bring mindful awareness to every financial transaction.",
+      "evening_reflection_prompts": [
+        "Which purchase felt the most mindful today?",
+        "Did I catch myself trying to escape emotions through spending?",
+        "What did the breathing pause reveal about my habits?"
+      ]
+    },
+    {
+      "day": 25,
+      "daily_theme": "Attachment to Outcomes",
+      "stoic_quote": "Do your part, then leave the rest to nature.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Work your plan and let go. You can't control the market, your boss, or the economy. Obsessing over results keeps you broke in the head.",
+      "todays_challenge": "Identify one financial goal you're gripping too tightly (promotion, investment return). Write down what you can control and what you must release.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will focus on disciplined action and surrender the outcome.",
+      "evening_reflection_prompts": [
+        "Where did I release control today?",
+        "What happened when I let go of an outcome?",
+        "How can surrender reduce my financial stress?"
+      ]
+    },
+    {
+      "day": 26,
+      "daily_theme": "Purposeful Planning",
+      "stoic_quote": "Luck is what happens when preparation meets opportunity.",
+      "quote_author": "Seneca",
+      "bro_translation": "You call it luck when you stumble into cash, but it's usually because you did the boring prep. Plan your money so luck can find you.",
+      "todays_challenge": "Create or revisit a simple budget. Include savings, investments and guilt‑free fun money. Schedule a review date one month from now.",
+      "challenge_type": "action",
+      "todays_intention": "I will put a plan behind my goals so that opportunity doesn't slip by.",
+      "evening_reflection_prompts": [
+        "What did I learn from budgeting today?",
+        "Where do I feel most in control?",
+        "How can I make my plan flexible yet firm?"
+      ]
+    },
+    {
+      "day": 27,
+      "daily_theme": "Money and Mortality",
+      "stoic_quote": "You could leave life right now. Let that determine what you do and say and think.",
+      "quote_author": "Marcus Aurelius",
+      "bro_translation": "You might not wake up tomorrow. Would you be happy with how you spent your cash and your time today?",
+      "todays_challenge": "Write down how you'd allocate your resources if you knew you had one year to live. Compare it to how you spend now.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will let the reality of my mortality bring clarity to my financial choices.",
+      "evening_reflection_prompts": [
+        "How did thinking about mortality shift my priorities?",
+        "Where am I wasting precious time and money?",
+        "What would I change if I had less time than I think?"
+      ]
+    },
+    {
+      "day": 28,
+      "daily_theme": "Community Over Consumption",
+      "stoic_quote": "The fruit of righteousness is a tree of life, and he who wins souls is wise.",
+      "quote_author": "Proverb (Stoic compatible)",
+      "bro_translation": "Your relationships feed you more than any purchase. Spend your energy building community instead of filling closets.",
+      "todays_challenge": "Reach out to a friend or family member you haven't connected with in a while. Spend time, not money, nurturing that bond.",
+      "challenge_type": "action",
+      "todays_intention": "I will invest in people over possessions.",
+      "evening_reflection_prompts": [
+        "Who did I connect with today?",
+        "How did it feel compared to buying something?",
+        "What relationships need more of my attention?"
+      ]
+    },
+    {
+      "day": 29,
+      "daily_theme": "Money As Energy",
+      "stoic_quote": "Wealth consists not in having great possessions, but in having few wants.",
+      "quote_author": "Epictetus",
+      "bro_translation": "Money is just energy moving through your life. Direct it intentionally instead of letting it leak.",
+      "todays_challenge": "Track every expense today, no matter how small, and note the emotion attached to each. Consider how your energy flows with each transaction.",
+      "challenge_type": "action",
+      "todays_intention": "I will see money as a flow of energy and channel it wisely.",
+      "evening_reflection_prompts": [
+        "What emotions accompanied my spending?",
+        "Where did I feel energized or drained?",
+        "How can I improve my flow of money and energy?"
+      ]
+    },
+    {
+      "day": 30,
+      "daily_theme": "Gratitude for Enough",
+      "stoic_quote": "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.",
+      "quote_author": "Epictetus",
+      "bro_translation": "A wise bro doesn't cry over what he can't buy—he celebrates what he already owns. Gratitude is the real flex.",
+      "todays_challenge": "Spend time writing a gratitude list focused specifically on non‑material wealth: health, friendships, skills, experiences. Read it aloud.",
+      "challenge_type": "reflection",
+      "todays_intention": "I will close this challenge with appreciation for my current abundance.",
+      "evening_reflection_prompts": [
+        "What non‑material riches did I acknowledge today?",
+        "How did gratitude shift my outlook on money?",
+        "What lessons from the last 30 days will I carry forward?"
+      ]
+    }
+  ]
+};
